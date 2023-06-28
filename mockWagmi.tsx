@@ -1,6 +1,6 @@
 import { RainbowKitProvider } from "@rainbow-me/rainbowkit"
 import { QueryClientProvider, QueryClient } from '@tanstack/react-query'
-import { localhost } from "@wagmi/chains"
+import { localhost } from "wagmi/chains"
 import { connect, disconnect } from "@wagmi/core"
 import React  from "react"
 import { createWalletClient, http } from "viem"
